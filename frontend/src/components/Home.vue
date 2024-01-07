@@ -1,9 +1,9 @@
 <template>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container">
-            <a href="/"><img src="/img/N.png" alt="LOGO" style="width: 25px !important;"></a>
+            <a href="/"><img src="/img/N.png" alt="LOGO" style="width: 30px !important;"></a>
             &nbsp;&nbsp;&nbsp;
-            <a class="navbar-brand" href="./"><i class="mr-2"></i><span style="font-weight: bold">Noodle</span> Scholar</a>
+            <a class="navbar-brand" href="./"><i class="mr-2"></i><span style="font-weight: bold">tubehao's Blogs</span></a>
             <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor02"
                 aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -100,39 +100,30 @@
         </div>
 
         <br><br><br><br>
-        <div class="container">
+        <!-- <div class="container">
             <div class="row">
-                <!-- 第一栏 -->
                 <div class="col-4">
-                    <!-- 第一栏的上侧 -->
                     <div class="col">
                         <div class="home_table_container">
-                            <!-- <h4 class="home_table_title text-center">Year Trend</h4> -->
                             <div id="year_paper" style="width: 100%; height: 260px;"></div>
                         </div>
                     </div>
                     <br>
-                    <!-- 第一栏的中侧 -->
                     <div class="col">
                         <div class="home_table_container">
-                            <!-- <h4 class="home_table_title text-center">Subject Distribution</h4> -->
                             <div id="sub_paper" style="width: 100%; height: 260px;"></div>
                         </div>
                     </div>
                     <br>
-                    <!-- 第一栏下侧 -->
                     <div class="col">
                         <div class="home_table_container" v-cloak>
-                            <!-- <h4 class="home_table_title text-center">SubDomain Distribution</h4> -->
                             <div id="subsub_paper" style="width: 100%; height: 260px;"></div>
                         </div>
                     </div>
                 </div>
 
                 <br>
-                <!-- 第二栏 -->
                 <div class="col-8">
-                    <!-- 第二栏上侧 -->
                     <div class="col">
                         <div class="home_table_container">
                             <h3 class="home_table_title text-center">Author with most Papers</h3>
@@ -162,7 +153,6 @@
                         </div>
                     </div>
                     <br>
-                    <!-- 第二栏下侧 -->
                     <div class="col">
                         <div class="home_table_container">
 
@@ -196,7 +186,7 @@
 
 
             </div>
-        </div>
+        </div> -->
         <!-- Bootstrap modal for sub-subject pie chart -->
         <div class="modal fade" id="subSubjectModal" tabindex="-1" role="dialog" aria-labelledby="modalLabel"
             aria-hidden="true">
